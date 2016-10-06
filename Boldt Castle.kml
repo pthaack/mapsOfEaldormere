@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Boldt Castle</name>
+		<Placemark>
+			<name>Boldt Castle</name>
+			<description><![CDATA[Boldt Castle is a major landmark and tourist attraction in the Thousand Islands region of the U.S. state of New York. It is located on Heart Island in the Saint Lawrence River. Heart Island is part of the Town of Alexandria, in Jefferson County. Originally a private mansion built by an American millionaire, it is today maintained by the Thousand Islands Bridge Authority as a tourist attraction.<br>Heart Island, Alexandria Bay, NY 13607, United States<br>http://boldtcastle.com<br>+1 315-482-9724]]></description>
+			<styleUrl>#poly-000000-1-77</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-75.921235,44.345178,0.0 -75.92138,44.345164,0.0 -75.921522,44.345093,0.0 -75.921622,44.345004,0.0 -75.921684,44.344983,0.0 -75.921798,44.344984,0.0 -75.922347,44.345034,0.0 -75.922482,44.345026,0.0 -75.922742,44.34496,0.0 -75.922988,44.344923,0.0 -75.92314,44.344872,0.0 -75.923186,44.344873,0.0 -75.92334,44.344796,0.0 -75.923499,44.344751,0.0 -75.923585,44.344677,0.0 -75.923649,44.344526,0.0 -75.923649,44.3444281,0.0 -75.9235308,44.3442832,0.0 -75.9234885,44.3441273,0.0 -75.9234964,44.3439968,0.0 -75.9235415,44.3438817,0.0 -75.9235662,44.343871,0.0 -75.9235668,44.3438411,0.0 -75.9235868,44.3438272,0.0 -75.9236188,44.3437698,0.0 -75.9236478,44.3437547,0.0 -75.923679,44.34369,0.0 -75.923642,44.343643,0.0 -75.923605,44.343617,0.0 -75.923564,44.343606,0.0 -75.923496,44.343612,0.0 -75.923259,44.343667,0.0 -75.923212,44.343668,0.0 -75.92312,44.343634,0.0 -75.923104,44.343606,0.0 -75.923105,44.343476,0.0 -75.923146,44.34339,0.0 -75.923146,44.343356,0.0 -75.923176,44.343328,0.0 -75.923164,44.343297,0.0 -75.923028,44.343275,0.0 -75.922663,44.343313,0.0 -75.922598,44.343342,0.0 -75.922544,44.343392,0.0 -75.922503,44.343449,0.0 -75.922256,44.343642,0.0 -75.921842,44.34393,0.0 -75.921729,44.344027,0.0 -75.921624,44.344118,0.0 -75.921546,44.344256,0.0 -75.921526,44.344258,0.0 -75.92152,44.344287,0.0 -75.92148,44.344316,0.0 -75.921452,44.344365,0.0 -75.921409,44.344377,0.0 -75.921397,44.344408,0.0 -75.92133,44.34448,0.0 -75.921297,44.344505,0.0 -75.921283,44.344555,0.0 -75.921252,44.344571,0.0 -75.921254,44.34461,0.0 -75.92122,44.344623,0.0 -75.921219,44.344665,0.0 -75.921185,44.34467,0.0 -75.921175,44.344724,0.0 -75.921143,44.344734,0.0 -75.921106,44.344871,0.0 -75.921093,44.345063,0.0 -75.921109,44.345093,0.0 -75.921186,44.345151,0.0 -75.921235,44.345178,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-77-normal'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-000000-1-77-highlight'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<StyleMap id='poly-000000-1-77'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-000000-1-77-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-000000-1-77-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
