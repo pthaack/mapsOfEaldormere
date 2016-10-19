@@ -1,0 +1,789 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+a {	
+	color: #3366CC;	
+	text-decoration: none
+}
+body {	
+	background-color: #DCDCDC;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 1em;	
+	line-height: 2em;	
+	color: #336699;
+	margin-top: 0.1em;
+	margin-right: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em
+	}
+h2 {
+	color: #CCCCCC
+	width: 320px;
+	}
+h3 {	
+	width: 320px;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 1.15em;	
+	background-color: #006666;  	
+	color: #DCDCDC
+	}
+h4 {
+	width: 320px;
+	color: #000000
+	}
+table {
+	color: #FFFFFF
+	}
+td, th {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	color: #333333
+	}
+textarea {
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 1em
+	width: 320px;
+	}
+ul {	
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 1em;	
+	list-style-type: square;	
+	list-style-position: outside
+	}
+.BulletBackgroundColor {
+	color: #FFFFFF
+	}
+.DataColor {
+	color: #DEDECA
+	}
+.footer { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.167em;
+	font-weight: bold;
+	line-height: 1.83em;
+	color: #333333;
+	background-color: #CCCCCC
+	}
+.FormBackgroundColor {
+	color: #CCCCCC
+	}
+.ImageTitleColor {
+	color: #CCCCCC
+	}
+.LabelColor {
+	color: #CCCCCC
+	}
+.ListColorEven {
+	color: #CCCCCC
+	}
+.ListFooterColor {
+	color: #333333
+	}
+.ListHeaderColor {
+	color: #333333
+	}
+.ListColorOdd {
+	color: #DEDECA
+	}
+.ListTitleColor {
+	color: #CCCCCC
+	}
+.NavigationBackgroundColor {
+	color: #666666
+	}
+.NavigationColor {
+	color: #CCCCCC
+	}
+.NewsDataColor {
+	color: #DEDECA
+	}
+.StoryTitle {
+	color: #000000;
+	font-weight: bold
+	}
+.StoryContentColor {
+	color: #000000
+	}
+.TitleColor {
+	color: #000000
+	}
+a:hover {	
+	text-decoration: underline
+	}
+tr.ListHeaderColor th {
+	text-align: left;
+	}.small {
+	font-size: 85%;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+body {
+	background-color: #FFFFCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 24pt;
+	color: #333333;
+}
+
+h2 {
+	color: #CCCCCC
+	width: 320px;
+	}
+td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 24pt;
+	color: #330000;
+}
+
+a {
+	color: #330000;
+}
+
+form {
+	background-color: #CCCC99;
+}
+
+.title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18pt;
+	line-height: 30pt;
+  background-color: #990000; color: #FFFF66;
+}
+
+.subtitle {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16pt;
+	line-height: 20pt;
+	font-weight: bold;
+  color: #660000; font-style: oblique;
+}
+
+.header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24pt;
+	background-color: #990000;
+  color: #FFFF66;
+}
+
+.nav {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-weight: bold;
+	background-color: #CCCC66;
+}
+
+.navLink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	background-color: #DEDECA;
+}
+a:hover {
+	color: #DEDECA;
+	background-color: #330000;
+}
+
+.sidebar {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	line-height: 18pt;
+	padding: 3pt;
+	background-color: #FFFF99;
+}
+
+.sidebarHeader {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14pt;
+	line-height: 18pt;
+	color: #FFFF99;
+	background-color: #999933;
+ font-weight: bold;
+}
+
+.sidebarFooter {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	line-height: 18pt;
+	background-color: #FFFF99;
+ color: #990000;
+}
+
+.footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 22pt;
+	color: #333333;
+	background-color: #FFFF99;
+}
+
+.legal {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #333333;
+}
+
+.box1 {
+	border-width: 2pt;
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+  border-style: dotted;
+	}
+
+.promo {
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+}
+
+.titlebar {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9pt;
+	color: #FFFFFF;
+	background-color: #336699;
+}
+
+.dingbat {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #CCCC99;
+ color: #660000; font-weight: bolder; font-size: medium;
+}
+
+input.big {
+	width: 100pt;
+}
+
+input.small {
+	width: 50pt;
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+h2 {
+	color: #CCCCCC
+	width: 320px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+a {	
+	color: #3366CC;	
+	text-decoration: none
+}
+body {	
+	background-color: #DCDCDC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 1em;	
+	line-height: 2em;	
+	color: #336699;
+	margin-top: 0.1em;
+	margin-right: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em
+	}
+h2 {
+	color: #CCCCCC;
+	width: 320px;
+	}
+h3 {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 1.15em;	
+	background-color: #006666;  	
+	color: #DCDCDC
+	}
+h4 {
+	color: #000000
+	}
+table {
+	color: #FFFFFF
+	}
+td, th {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	color: #333333
+	}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 1em
+	}
+ul {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 1em;	
+	list-style-type: square;	
+	list-style-position: outside
+	}
+.BulletBackgroundColor {
+	color: #FFFFFF
+	}
+.DataColor {
+	color: #DEDECA
+	}
+.footer { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.167em;
+	font-weight: bold;
+	line-height: 1.83em;
+	color: #333333;
+	background-color: #CCCCCC
+	}
+.FormBackgroundColor {
+	color: #CCCCCC
+	}
+.ImageTitleColor {
+	color: #CCCCCC
+	}
+.LabelColor {
+	color: #CCCCCC
+	}
+.ListColorEven {
+	color: #CCCCCC
+	}
+.ListFooterColor {
+	color: #333333
+	}
+.ListHeaderColor {
+	color: #333333
+	}
+.ListColorOdd {
+	color: #DEDECA
+	}
+.ListTitleColor {
+	color: #CCCCCC
+	}
+.NavigationBackgroundColor {
+	color: #666666
+	}
+.NavigationColor {
+	color: #CCCCCC
+	}
+.NewsDataColor {
+	color: #DEDECA
+	}
+.StoryTitle {
+	color: #000000;
+	font-weight: bold
+	}
+.StoryContentColor {
+	color: #000000
+	}
+.TitleColor {
+	color: #000000
+	}
+a:hover {	
+	text-decoration: underline
+	}
+tr.ListHeaderColor th {
+	text-align: left;
+	}.small {
+	font-size: 85%;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+h2 {
+	color: #CCCCCC
+	width: 320px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+body {
+	background-color: #DCDCDC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #336699;
+}
+
+h2 {
+	color: #CCCCCC
+	width: 320px;
+	}
+td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+}
+
+a {
+	color: #3366CC;
+	text-decoration: none;
+}
+
+form {
+	background-color: #CCCC99;
+}
+
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+	line-height: 30px;
+  background-color: #006666;
+	color: #DCDCDC;
+}
+
+.subtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+  color: #006666;
+}
+
+.header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	background-color: #006666;
+  color: #DCDCDC;
+}
+
+.nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+  font-weight: bold;
+	background-color: #CCCCCC;
+}
+
+.navLink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #DEDECA;
+}
+
+.sidebar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 3px;
+	background-color: #FFFFFF;
+}
+
+.sidebarHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	background-color: #339999;
+}
+
+.sidebarFooter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	background-color: #CCCCCC;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	color: #333333;
+	background-color: #CCCCCC;
+}
+
+.legal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;
+}
+
+.box1 {
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+	border-width: medium;
+  border-style: ridge;
+}
+
+.promo {
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+}
+
+.titlebar {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	color: #FFFFFF;
+  background-color: #336699;
+}
+
+.dingbat {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #99CC99;
+  color: #006666; 
+	font-weight: bolder;
+	font-size: medium;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+body {
+	background-color: #FFFFCC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #336699;
+}
+
+h2 {
+	color: #CCCCCC
+	width: 320px;
+	}
+td, th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+}
+
+a {
+	font-size: 12px;
+	color: #336600;
+}
+
+form {
+	background-color: #CCCC99;
+}
+
+.title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+ background-color: #99CC00; color: #003333;}
+
+.subtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+ color: #003300;}
+
+.header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	background-color: #669900;
+ color: #FFFF33;
+}
+
+.nav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #CCFF99;
+}
+
+.navLink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #DEDECA;
+}
+
+.sidebar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 3px;
+	background-color: #FFFFCC;
+ color: #003333;
+}
+
+.sidebarHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #003300;
+	background-color: #FFFF66;
+}
+
+.sidebarFooter {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	background-color: #FFFF99;
+ font-style: italic;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	color: #333333;
+	background-color: #CCFF99;
+}
+
+.legal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;
+}
+
+.box1 {
+	border-width: thin;
+	border-color: #99FF99 #003300 #003300 #99FF99;
+ border-style: double;
+ }
+
+.promo {
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+}
+
+.titlebar {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	background-color: #336699;
+}
+
+.dingbat {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+ color: #660000; font-weight: bolder; font-size: medium;
+ }
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+h2 {
+	color: #CCCCCC
+	width: 320px;
+	}
+a:link {
+	color: #0000FF;
+}
+
+a:visited {
+  color: #3366FF;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	color: #FF0000;
+}
+
+a.hidden {
+  color: #000000;
+}
+
+a.hidden:visited {
+  color: #000000;
+}
+
+a.hidden:hover {
+	color: #0000CC;
+}
+
+a.hidden:active {
+  color: #000000;
+}
+
+a.nav:link {
+	color: #333333;
+	padding: 2px;}
+
+a.nav:visited {
+	color: #cccccc;
+	padding: 2px;
+}
+
+a.nav:hover {
+	color: #FFFFFF;
+	background-color: #666666;
+	padding: 2px;
+}
+
+a.menu {
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a.menu:hover {
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	letter-spacing: 1px;
+	}
+
+a.box {
+	padding: 3px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	border: medium solid #CCCCCC;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.box:hover {
+  color: #000000;
+	padding: 3px;
+	text-decoration: none;
+	background-color: #666666;
+	border: medium solid #3366FF;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
